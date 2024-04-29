@@ -2,6 +2,7 @@ import { Container } from '@chakra-ui/react'
 import { Code, Stack, Text} from '@chakra-ui/react'
 import './App.css'
 
+
  const App = () => {
 
   return(<>
@@ -18,7 +19,7 @@ import './App.css'
       </Text>
 
         <Code>
-        viewmodel_fov 68; viewmodel_offset_x 2.5; viewmodel_offset_y 0; viewmodel_offset_z -1.5; viewmodel_presetpos 3; cl_usenewbob false;
+        viewmodel_fov 68; viewmodel_offset_x 2.5; viewmodel_offset_y 0; viewmodel_offset_z -1.5; viewmodel_presetpos 3; cl_usenewbob false; cl_usenewbob 0;
         </Code>
 
       </Stack>
