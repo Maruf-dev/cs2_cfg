@@ -43,7 +43,7 @@ const App = () => {
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                  Cross hair
+                  Crosshair
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
