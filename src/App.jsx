@@ -13,11 +13,6 @@ import {
 import { MinusIcon, AddIcon } from "@chakra-ui/icons";
 import "./App.css";
 
-
-
-
-
-
 const App = () => {
   return (
     <>
@@ -34,8 +29,8 @@ const App = () => {
             </h2>
             <AccordionPanel>
               <Code>
-                r_drawtracers "1"; hud_showtargetid "1"; hud_scaling "1";
-                fps_max "500"; cl_autohelp "0"; cl_showfps "1";
+                r_drawtracers "1";viewmodel_presetpos "3"; hud_showtargetid "1";
+                hud_scaling "1"; fps_max "500"; cl_autohelp "0"; cl_showfps "1";
               </Code>
             </AccordionPanel>
           </AccordionItem>
@@ -79,6 +74,14 @@ const App = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel>
+              <Code>
+                cl_crosshair_recoil "0"; cl_crosshair_drawoutline "0";
+                cl_crosshair_outlinethickness "1"; cl_crosshairusealpha "1";
+                cl_crosshair_t "0"; cl_crosshairgap_useweaponvalue "0";
+                cl_crosshair_dynamic_splitdist "7"; cl_fixedcrosshairgap "3";
+                cl_crosshair_dynamic_splitalpha_innermod "1";
+                cl_crosshair_dynamic_splitalpha_outermod "0.5";
+              </Code>
               <Code m={2}>
                 alias "+jumpaction" "+jump;"; <br /> alias "+throwaction"
                 "-attack; <br />
@@ -88,6 +91,10 @@ const App = () => {
               <Code m={2}>
                 bind "c" "+duck"; <br /> bind "mwheeldown" "+jump"; <br /> bind
                 "mwheelup" "+lookatweapon"; <br />
+                bind "mouse4" "+voicerecord";
+                <br /> bind "f" "slot7"; <br />
+                bind "v" "slot8"; <br />
+                bind "ctrl" "slot10"; <br /> bind "space" "slot6" <br />
               </Code>
             </AccordionPanel>
           </AccordionItem>
