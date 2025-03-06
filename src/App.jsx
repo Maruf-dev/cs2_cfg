@@ -101,7 +101,6 @@ const configSections = [
     title: "Binds",
     content: [
       "cl_crosshair_recoil \"0\"; cl_crosshair_drawoutline \"0\"; cl_crosshair_outlinethickness \"1\"; cl_crosshairusealpha \"1\"; cl_crosshair_t \"0\"; cl_crosshairgap_useweaponvalue \"0\"; cl_crosshair_dynamic_splitdist \"7\"; cl_fixedcrosshairgap \"3\"; cl_crosshair_dynamic_splitalpha_innermod \"1\"; cl_crosshair_dynamic_splitalpha_outermod \"0.5\";",
-      "alias \"+jumpaction\" \"+jump;\";\nalias \"+throwaction\" \"-attack;\n-attack2\";\nalias \"-jumpaction\" \"-jump\";\nbind \"j\" \"+jumpaction;+throwaction;\"",
       "bind \"c\" \"+duck\";\nbind \"mwheeldown\" \"+jump\";\nbind \"mwheelup\" \"+lookatweapon\";\nbind \"mouse4\" \"+voicerecord\";\nbind \"f\" \"slot7\";\nbind \"v\" \"slot8\";\nbind \"ctrl\" \"slot10\";\nbind \"space\" \"slot6\""
     ]
   },
