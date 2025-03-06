@@ -114,7 +114,7 @@ const configSections = [
 const App = () => {
   return (
     <Container maxW="1500px" bg="blue.900" color="white" p={4}>
-      <Heading as="h1" size="xl" textAlign="center" mb={6}>CS2 Configuration</Heading>
+      <Heading as="h1" size="xl" textAlign="center" mb={6}>maddyS- Config</Heading>
 
       <Accordion allowMultiple>
         {configSections.map((section) => (
