@@ -151,6 +151,11 @@ bind "F1" "mute"`
     id: "hud",
     title: "Hud",
     content: "cl_hud_color \"4\"; cl_hud_radar_scale \"0.910000\"; cl_radar_always_centered \"1\"; cl_radar_icon_scale_min \"0.500000\"; cl_radar_scale \"0.4\"; cl_radar_rotate \"1\";"
+  },
+  {
+    id: "train",
+    title: "train",
+    content: [`https://cybershoke.net/ru/cs2/servers/hsdm`,`https://www.cs2util.com`,`https://www.youtube.com/@CS2Tactics`,`https://www.youtube.com/@goldcsnades`],
   }
 ];
 
