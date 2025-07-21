@@ -40,3 +40,77 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background: #181A1B;
+  color: #E0E0E0;
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.chakra-container {
+  padding: 16px !important;
+  border-radius: 8px !important;
+  background: #23272A !important;
+  box-shadow: 0 2px 12px #000a;
+}
+
+.chakra-accordion__item {
+  border-radius: 4px !important;
+  margin-bottom: 8px !important;
+  border: 1px solid #333 !important;
+}
+
+.chakra-accordion__button {
+  padding: 8px 12px !important;
+  font-size: 1.1rem !important;
+  background: #181A1B !important;
+  color: #E0E0E0 !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+
+.chakra-accordion__button[aria-expanded="true"] {
+  background: #222 !important;
+  color: #00FF99 !important;
+}
+
+.chakra-accordion__panel {
+  padding: 8px 12px !important;
+  background: #23272A !important;
+}
+
+.chakra-code {
+  background: #111 !important;
+  color: #00FF99 !important;
+  font-size: 1rem !important;
+  border-radius: 4px !important;
+  padding: 10px 12px !important;
+  margin-bottom: 6px !important;
+  border: 1px solid #222 !important;
+}
+
+.chakra-button {
+  font-size: 0.95rem !important;
+  padding: 2px 10px !important;
+  border-radius: 3px !important;
+  min-width: 70px;
+  background: #23272A !important;
+  color: #00FF99 !important;
+  border: 1px solid #00FF99 !important;
+  box-shadow: none !important;
+}
+
+.chakra-button[aria-pressed="true"], .chakra-button:active {
+  background: #00FF99 !important;
+  color: #181A1B !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #181A1B;
+}
+::-webkit-scrollbar-thumb {
+  background: #23272A;
+  border-radius: 4px;
+}
