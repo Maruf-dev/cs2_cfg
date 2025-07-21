@@ -143,7 +143,8 @@ bind "o" "say now ᴘʟᴀʏɪɴɢ: Who asked (Feat: Nobody) ⚪ ◄◄⠀⏯⠀
 bind "p" "say Choose your excuse: 1.Lags | 2.New mouse | 3.Low FPS | 4.Low team | 5.Hacker | 6.Lucker | 7.Smurf | 8.Hitbox | 9.Tickrate";
 bind "s" "+back;r_cleardecals";
 bind "z" "radio";
-bind "mouse3" "player_ping";`
+bind "mouse3" "player_ping";
+bind "F1" "mute"`
     ]
   },
   {
