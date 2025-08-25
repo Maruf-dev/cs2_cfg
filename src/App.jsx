@@ -104,7 +104,7 @@ mm_dedicated_search_maxping "40";`
     id: "crosshair",
     title: "Crosshair",
     content: [
-      "CSGO-SZLXx-25PxR-Yyftb-dVwjT-fxwPB",
+      "CSGO-Spb4T-sZiy9-kv2wX-t6fDc-LGZML",
       "CSGO-NKxya-JNpRw-wtaGC-Dzpyq-QomHB"
     ],
   },
@@ -144,7 +144,7 @@ bind "p" "say Choose your excuse: 1.Lags | 2.New mouse | 3.Low FPS | 4.Low team 
 bind "s" "+back;r_cleardecals";
 bind "z" "radio";
 bind "mouse3" "player_ping";
-bind "F1" "mute"`
+`
     ]
   },
   {
